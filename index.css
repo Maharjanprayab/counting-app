@@ -1,0 +1,58 @@
+body{
+    background: url(./background2.jpeg);
+    background-size: cover;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+
+
+h1{
+    margin: 10px 0;
+}
+
+h2{
+    margin: 0 0 20px;
+    font-size: 50px;
+}
+
+#btn-div{
+    position: relative;
+    left: 50%;
+    width: 200px;
+}
+
+button{
+    position: relative;
+    left: -50%;
+    display: block;
+    border: none;
+    padding: 10px 0 10px;
+    color: #fff;
+    font-weight: bold;
+    font-size: 25px;
+    width: 200px;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#increment-btn{
+    /* left: -50%; */
+    background: darkred;
+}
+
+#save-btn{
+    background: green;
+}
+
+#saved{
+    width: 200px;
+    text-align: left;
+    border: none;
+    background: transparent;
+    background-color: #00000040;
+    border-radius: 3px;
+    overflow: scroll;
+}
